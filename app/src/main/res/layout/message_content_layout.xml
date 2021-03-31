@@ -30,6 +30,6 @@
             android:paddingRight="13dip"
             android:text="8 minutes ago"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/secondary_text" />"/>
+            android:textColor="@color/black" />"/>
     </LinearLayout>
 </LinearLayout>
