@@ -22,7 +22,7 @@ public class Utils {
         OkHttpClient client = new OkHttpClient();
         final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
         String url = "https://api.sariska.io/api/v1/misc/generate-token";
-        String json = "{\"apiKey\":\"24926faa88ca145d7466c2e123aca790768002ff8faf338e29ca\"," +
+        String json = "{\"apiKey\":\"27fd6f8080d512442a3694f461adb3986cda5ba39dbe368d75\"," +
                 "\"user\":{\"id\":\"99266\"," +
                 "\"name\":\"Dipak\"," +
                 "\"email\":\"dipak.work.14@gmail.com\"," +
@@ -46,7 +46,7 @@ public class Utils {
             return finalResponse;
         } catch (JSONException e) {
             e.printStackTrace();
-            System.out.println("This cannot be done");
+            System.out.println("Cannot fetch the Token");
             return null;
         }
     }

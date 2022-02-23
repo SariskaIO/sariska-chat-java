@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity{
                     token[0] = fetchToken();
                     System.out.println(token[0]);
                     System.out.println("Token Generated");
-                    final String socketUrl = "wss://api.sariska.io/api/v1/messaging/websocket";
+                    final String socketUrl = "wss://api.sariska.io/api/v1/messaging/websocket/websocket";
                     Uri.Builder url = Uri.parse(socketUrl).buildUpon();
                     url.appendQueryParameter("token", token[0]);
                     try {
