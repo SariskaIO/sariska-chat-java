@@ -35,7 +35,7 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.10.5'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.5'
     implementation 'com.android.support:support-core-utils:30.0.0'
-    implementation ('com.github.eoinsha:JavaPhoenixChannels:v1.0.0')
+    implementation ('com.github.dipak140:JavaPhoenixChannels:v1.0.3')
     {
         exclude module: 'groovy-all'
     }
